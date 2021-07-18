@@ -1,0 +1,6 @@
+---
+- hosts: all
+  tasks:
+    - name: Rstart httpd Service
+      service: name=httpd enabled=true state=started
+
